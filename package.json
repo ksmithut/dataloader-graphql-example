@@ -1,0 +1,26 @@
+{
+  "name": "dataloader",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "@prisma/client": "3.9.2",
+    "apollo-server": "^3.6.3",
+    "apollo-server-core": "^3.6.3",
+    "dataloader": "^2.0.0",
+    "graphql": "^16.3.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prisma": "^3.9.2"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}
